@@ -1,4 +1,4 @@
-* damos formato a un dispositivo de almacenamiento de bloque con un determinado sistema de archivos
+## Damos formato a un dispositivo de almacenamiento de bloque con un determinado sistema de archivos
   1. /dev/sdb1 -> "   /   "
   2. /dev/sdb2 -> " swap  "
   3. /dev/sdb3 -> " /Boot "
