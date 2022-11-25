@@ -1,4 +1,7 @@
 ## Preparar el systema de ficheros para entrar en chroot
+
+Esto es por si en algun momento te desconectas, o dejas la instalacion para luego.
+
 ```
 mkdir -pv $LFS
 mkdir -v $LFS/boot      
