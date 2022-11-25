@@ -1,3 +1,8 @@
+# Antes de hacer esto, crea las tres particiones que necesitamos, usando fdisk (o algo similar)
+* una particion swap (+1G)
+* una particion /boot (+1G) (Un poco mas de 250m)
+* una particion / (lo que le quieras darle)
+
 ## Damos formato a un dispositivo de almacenamiento de bloque con un determinado sistema de archivos
   1. /dev/sdb1 -> "   /   "
   2. /dev/sdb2 -> " swap  "
