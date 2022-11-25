@@ -1,14 +1,20 @@
-## Instalaciones para mejor manejo
+## * Instalaciones que hice en mi VM (UBUNTU - Virtualbox) 
+## LFS ( 11.2-systemd ) Version -[Fr][1] o -[En][2]
+[1]: https://fr.linuxfromscratch.org/view/lfs-systemd-stable/index.html
+[2]: https://linuxfromscratch.org/lfs/view/11.2-systemd/
+
+
+* Instalar openssh-server (conectarme en ssh a la maquina virtual) y Vim (editor de texto)
 ```
 sudo apt-get install -y openssh-server vim
 ```
 
-## Ponerle contra al root
+## Ya que la VM era nueva, no tenia un Password para Root, lo creamos. 
 ```
 sudo passwd root
 ```
 
-## Crear script para ver las versiones
+## Este script, se encuentra en la propia pagina de LFS. (Es para ver las versiones)
 ```
 cat > version-check.sh << "EOF"
 #!/bin/bash
@@ -68,7 +74,7 @@ EOF
 bash version-check.sh
 ```
 ---------------------------------------------
-## instalar lo que falta.
+## instalar lo que haga falta.
 ```
 sudo apt-get install -y g++ make texinfo m4 gawk bison
 ```
@@ -76,7 +82,3 @@ sudo apt-get install -y g++ make texinfo m4 gawk bison
 ```
 sudo ln -sf bash /bin/sh
 ```
-
-# tip -> Clonar tu OS por si danas el anterior
-
-
