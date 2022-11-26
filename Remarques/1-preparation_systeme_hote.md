@@ -1,4 +1,4 @@
-## * Instalaciones que hice en mi VM (UBUNTU - Virtualbox) 
+## * Instalaciones que hice en mi VM (UBUNTU-22.04.1 - Virtualbox) 
 ## LFS ( 11.2-systemd ) Version -[Fr][1] o -[En][2]
 [1]: https://fr.linuxfromscratch.org/view/lfs-systemd-stable/index.html
 [2]: https://linuxfromscratch.org/lfs/view/11.2-systemd/
