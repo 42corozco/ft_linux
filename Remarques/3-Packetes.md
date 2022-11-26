@@ -22,6 +22,11 @@ pushd $LFS/sources
 popd
 ```
 
+# Dos packetes muy interesantes a descargar, son (wget y curl)
+```
+  wget -> https://fr.linuxfromscratch.org/view/blfs-11.2-systemd-fr/basicnet/wget.html
+  curl -> https://fr.linuxfromscratch.org/view/blfs-11.2-systemd-fr/basicnet/curl.html
+```
 # Pour les personnes de 42.
 Changer tout **$LFS/sources** pour **$LFS/usr/src/kernel-<ta version>** 
 * Exemple:
