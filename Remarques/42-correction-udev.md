@@ -1,3 +1,4 @@
+* si tienes systemctl tienes udev!
 * Pour savoir si udev est bien sur ton pc https://linuxembedded.fr/2015/05/une-introduction-a-udev
 ```
 udevadm monitor -k
