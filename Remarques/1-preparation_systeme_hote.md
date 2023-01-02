@@ -81,4 +81,5 @@ sudo apt-get install -y g++ make texinfo m4 gawk bison
 ### (si error) ERREUR: /bin/sh ne pointe pas vers bash
 ```
 sudo ln -sf bash /bin/sh
+https://askubuntu.com/questions/328364/bin-sh-is-a-symbolic-link-that-doesnt-point-to-bin-bash
 ```
